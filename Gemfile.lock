@@ -187,7 +187,7 @@ GEM
     puma (3.12.0)
     puma (3.12.0-java)
     raabro (1.1.6)
-    rack (2.0.5)
+    rack (2.2.2)
     rack-protection (2.0.4)
       rack
     rack-test (1.1.0)
