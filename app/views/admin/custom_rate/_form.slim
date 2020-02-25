@@ -1,0 +1,10 @@
+.text-center
+  = form_with scope: :custom_rate, url: {action: :create} do |f|
+
+    = f.label :rate_value
+    = f.number_field :rate_value, step: :any, label: false, value: @presenter.current_rate
+
+    = f.label :expire_time
+    = f.datetime_field :expire_time, label: false
+
+    = f.submit class: 'info button', id: 'save'

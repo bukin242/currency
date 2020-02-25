@@ -1,0 +1,6 @@
+update_rate_cron:
+  cron: "* * * * *"
+  class: "UpdateRateJob"
+  queue: update_rate
+  args:
+  description: "Изменение текущего курса валюты"

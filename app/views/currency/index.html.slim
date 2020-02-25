@@ -1,0 +1,9 @@
+- content_for :title, t('current_course')
+
+h3= t('current_course')
+.callout.large.primary
+  .text-center
+    h2
+      ' 1 USD =
+      span{data-channel="rate"}= @presenter.current_rate.presence || '...'
+      '  RUR

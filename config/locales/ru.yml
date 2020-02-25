@@ -1,0 +1,24 @@
+en:
+  menu_text: "Курс валюты"
+  main: "Главная"
+  admin: "Админка"
+  current_course: "Текущий курс"
+  custom_rate: "Установить курс вручную"
+  course_has_been_set: "Курс был успешно установлен. Действует до: %{expire_time}"
+  author: "Автор"
+  helpers:
+    label:
+      custom_rate:
+        rate_value: "Значение курса"
+        expire_time: "Действует до"
+    submit:
+      submit: "Сохранить"
+  errors:
+    messages:
+      blank: "не может быть пустым"
+      rate_value:
+        blank: "Значение курса не может быть пустым"
+        zero: "Значение курса должно быть положительным числом"
+      expire_time:
+        blank: "Действует до не может быть пустым"
+        less_now: "Действует до не может быть раньше текущего времени"

@@ -1,0 +1,9 @@
+# Place all the behaviors and hooks related to the matching controller here.
+# All this logic will automatically be available in application.js.
+# You can use CoffeeScript in this file: http://coffeescript.org/
+
+window._rails_env =
+  env: '<%= Rails.env %>'
+  is_development: -> this.env == 'development'
+  is_production: -> this.env == 'production'
+  is_test: -> this.env == 'test'

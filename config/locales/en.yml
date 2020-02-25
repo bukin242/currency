@@ -1,0 +1,24 @@
+en:
+  menu_text: "Currency Rate"
+  main: "Main"
+  admin: "Admin"
+  current_course: "Current course"
+  custom_rate: "Set own course"
+  course_has_been_set: "Course has been set. Expire at: %{expire_time}"
+  author: "Author"
+  helpers:
+    label:
+      custom_rate:
+        rate_value: "Rate Value"
+        expire_time: "Expire Time"
+    submit:
+      submit: "Save"
+  errors:
+    messages:
+      blank: "Can't be blank"
+      rate_value:
+        blank: "Rate value can't be blank"
+        zero: "Rate value must be a positive number"
+      expire_time:
+        blank: "Expire time can't be blank"
+        less_now: "Expire time can't be less than the current time"
